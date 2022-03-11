@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Styles </title>
+
+</head>
+
+<body>
+<p style="color:red;"> <b>important text</b> </p>
+
+<p class="important"> important text </p>
+<p class="important"> more important text </p>
+<p class="important"> and some more important text </p>
+
+
+
+
+</body>
+
+</html>
