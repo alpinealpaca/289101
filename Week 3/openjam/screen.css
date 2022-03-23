@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700'); /*outlinesstuff*/
+
+body {   /* body from other page */
+    font-family: Quicksand;
+    margin: 0;
+    background-color: #82DDB5;
+        background-image: 
+    url("img/illustration.gif"),
+    url('img/texture.gif');
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+
+}
+
+
+#nav {
+    background-color: 
+        #67bb99;
+        text-align: center;
+        color: #ffffff;
+        padding 30px;
+        margin-bottom: 20px;
+        border-bottom: 3px
+        dashed #000;
+        font-weight: 700;
+        word-spacing: 20px;
+}
+
+#header {
+
+    padding: 20px, color: #89ddBB;
+    text-align: center;
+    margin-bottom: 400px;
+    margin-top: 40px;
+}
+
+#desciption, #date, #description {
+    max-width: 220px;
+    width: 100%;
+}
+
+
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#logo {
+    max-width: 360px;
+    width: 100%;
+
+}
+
+#what {
+    background-color: 
+        #ffffff55;   
+    text-align: center; /* how to seperate h1 from p?*/
+    color: #15787A;
+    padding-left: 200px; padding-right: 200px;
+
+    
+}
+
+#sponsor_logos {
+    padding-left: 300px; padding-right: 300px;
+
+}
+
+#why {
+    margin-top: -16px; margin-bottom:  -20px;
+    padding-top: 5px; padding-bottom: 30px;
+        padding-left: 200px; padding-right: 200px;
+    background-color: 
+        #ffffff33; 
+    text-align: center;
+    color: #15787A;
+}
+
+#where {
+    padding-top: 30px; padding-bottom: 300px;
+    background-color: 
+        #FFAADD; 
+        background-image: 
+            url("img/map.gif"); 
+    text-align: right;
+    padding-right: 250px;
+    color: #A82C80
+    
+}
+
+#when {
+    background-color: 
+        #15787A; 
+            background-image: 
+            url("img/wires.png"); 
+    margin-top: -20px; margin-bottom:  -20px;
+        padding-top: 5px; padding-bottom: 30px;
+    padding-left: 300px;
+    text-align: start;
+    color: #FFFFFF;  
+    /*dashed #000;*/
+}
+
+#who {
+    background-color: 
+        #EEEEEE; 
+    padding-left: 200px; padding-right: 200px;
+    padding-top: 5px; padding-bottom: 30px;
+    text-align: center;
+}
+
+#footer {
+     max-width: 75px;
+    width: 100%;
