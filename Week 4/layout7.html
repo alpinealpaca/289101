@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title> Styles </title>
+
+</head>
+    <meta charset="utf-8" />
+    <title>Layout 1</title>
+    
+    <style>
+        
+        div { outline: 1px solid black; }
+        
+       .container {
+           margin: auto;
+           max-width: 1000px;
+                }
+        
+        
+        .blue {
+            background-color: blue; 
+            height: 100px;
+            display: grid;
+            grid-template-columns: 25% 75%;
+        }
+            
+        #bigblue {
+            background-color: blue;   
+            display: grid;
+            height: 500px;
+            grid-template-rows: 33% 33% 33%;
+            grid-template-columns: repeat(4, 25%);
+            }
+        
+        
+        #bigblue2 {    
+            background-color: blue; 
+            height: 100px;
+            display: grid;
+            grid-template-columns: 1/4;
+        }
+            
+        .green {
+            background-color: lime;
+            height: 500px;    
+        }   
+        
+        .red1 {
+            background-color: red;
+            height: 150px;
+            display: grid;
+        }
+        
+        .red2 {
+            background-color: red;
+            height: 250px;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+
+            
+        }
+
+        .yellow {
+            background-color: yellow;
+            margin: 20px;
+            }
+        
+        #green2 {
+            height: 150px;
+            background-color: lime;
+            display: grid;
+        }
+        
+        #green3 {
+            height: 450px;
+            background-color: lime;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+                
+        #red3 {
+            background-color: red;
+            height: 100px;
+            display: grid;
+        }
+        #red4 {
+            background-color: red;
+            height: 400px;
+            display: grid;
+            grid-template-columns: 60% 33% 33%;
+            grid-template-rows: 100% 30%;
+
+        }
+
+        
+        
+    </style>
+      
+    
+<body>
+    <div class="container">
+        <div class ="blue">
+            <div class="yellow"></div>    
+            <div class="yellow"></div>  
+        </div>
+        <div class ="green"></div>
+    </div>
+    <div class="container">
+        <div class="red1">
+            <div class="yellow"></div>
+        </div>
+        <div class="red2">
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div
+            class="yellow"></div>
+     
+        </div>
+        
+        <div id ="bigblue2">
+            <div class="yellow">
+            </div>
+            </div>    
+        <div id ="bigblue">
+            <div class="yellow"></div>     
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div
+            class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div
+            class="yellow"></div>
+                        <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </div>
+        
+        <div id ="green2">
+            <div
+           class="yellow"></div> 
+        </div>
+        <div id ="green3">
+            <div
+           class="yellow"></div> 
+            <div
+           class="yellow"></div> 
+            <div
+           class="yellow"></div> 
+        </div>
+        <div id="red3">
+            <div class="yellow"></div>
+        </div>
+        <div id="red4">
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </div>
+        <div class="blue"></div>
+    </div>
+        
+
+
+</body>
+
+</html>

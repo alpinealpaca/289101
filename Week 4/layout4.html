@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title> Styles </title>
+
+</head>
+    <meta charset="utf-8" />
+    <title>Layout 1</title>
+    
+    <style>
+        
+        div { outline: 1px solid black; }
+        
+       #container {
+           margin: auto;
+           max-width: 800px;
+                }
+        #blue {
+            background-color: blue;
+            height: 200px;
+        }
+        .red {
+            display: grid;
+            background-color: red;
+            grid-template-columns: 50% 50%;
+            height: 400px;
+            padding: 10px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            margin: 20px;              
+            }
+        
+        #green {
+            display: grid;
+            background-color: lime;
+            grid-template-columns: 50% 50%;
+            height: 200px;
+            padding: 10px;
+            
+        }
+        
+        
+    </style>
+      
+    
+<body>
+    <div id="container">
+        <div id="blue"></div>
+        <div id="green">
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </div>
+        <div class="red">
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </div>
+    
+    </div>
+
+
+</body>
+
+</html>
